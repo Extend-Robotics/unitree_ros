@@ -51,7 +51,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://g1_d_description/meshes/Left_Wheel_Link.STL"/>
+        <mesh filename="package://g1_d_description/meshes/collision/Left_Wheel_Link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -80,7 +80,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://g1_d_description/meshes/RIght_Wheel_Link.STL"/>
+        <mesh filename="package://g1_d_description/meshes/collision/RIght_Wheel_Link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -115,7 +115,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://g1_d_description/meshes/Caster_FL_Link.STL"/>
+        <mesh filename="package://g1_d_description/meshes/collision/Caster_FL_Link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -143,7 +143,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://g1_d_description/meshes/Caster_FL_Wheel_Link.STL"/>
+        <mesh filename="package://g1_d_description/meshes/collision/Caster_FL_Wheel_Link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -171,7 +171,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://g1_d_description/meshes/Caster_FR_Link.STL"/>
+        <mesh filename="package://g1_d_description/meshes/collision/Caster_FR_Link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -199,7 +199,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://g1_d_description/meshes/Caster_FR_Wheel_Link.STL"/>
+        <mesh filename="package://g1_d_description/meshes/collision/Caster_FR_Wheel_Link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -227,7 +227,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://g1_d_description/meshes/Caster_RL_Link.STL"/>
+        <mesh filename="package://g1_d_description/meshes/collision/Caster_RL_Link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -255,7 +255,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://g1_d_description/meshes/Caster_RL_Wheel_Link.STL"/>
+        <mesh filename="package://g1_d_description/meshes/collision/Caster_RL_Wheel_Link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -283,7 +283,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://g1_d_description/meshes/Caster_RR_Link.STL"/>
+        <mesh filename="package://g1_d_description/meshes/collision/Caster_RR_Link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -311,7 +311,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://g1_d_description/meshes/Caster_RR_Wheel_Link.STL"/>
+        <mesh filename="package://g1_d_description/meshes/collision/Caster_RR_Wheel_Link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -448,7 +448,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://g1_d_description/meshes/Yaw_Link.STL"/>
+        <mesh filename="package://g1_d_description/meshes/collision/Yaw_Link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -477,7 +477,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://g1_d_description/meshes/torso_link.STL"/>
+        <mesh filename="package://g1_d_description/meshes/collision/torso_link.STL"/>
       </geometry>
     </collision>
   </link>
@@ -510,12 +510,6 @@
         <color rgba="0.2 0.2 0.2 1"/>
       </material>
     </visual>
-    <collision>
-      <origin xyz="0 0 0" rpy="0 0 0"/>
-      <geometry>
-        <mesh filename="package://g1_d_description/meshes/logo_link.STL"/>
-      </geometry>
-    </collision>
   </link>
 
   <!-- Head -->
@@ -537,7 +531,7 @@
     <collision>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://g1_d_description/meshes/head_link.STL"/>
+        <mesh filename="package://g1_d_description/meshes/collision/head_link.STL"/>
       </geometry>
     </collision>
   </link>
