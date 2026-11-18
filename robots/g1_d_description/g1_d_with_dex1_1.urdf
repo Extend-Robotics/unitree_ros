@@ -370,7 +370,7 @@
     <parent link="LZ_ot_Link"/>
     <child link="LZ_mt_Link"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0" upper="0.21" effort="500" velocity="0.05"/>
+    <limit lower="0" upper="0.21" effort="500" velocity="0.03825"/>
   </joint>
   <link name="LZ_it_Link">
     <inertial>
@@ -399,7 +399,8 @@
     <parent link="LZ_mt_Link"/>
     <child link="LZ_it_Link"/>
     <axis xyz="0 0 1"/>
-    <limit lower="0" upper="0.21" effort="500" velocity="0.05"/>
+    <limit lower="0" upper="0.21" effort="500" velocity="0.03825"/>
+    <mimic joint="LZ_mt_Joint" multiplier="1" offset="0"/>
   </joint>
   <link name="Pitching_Link">
     <inertial>
