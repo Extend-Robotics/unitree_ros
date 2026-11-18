@@ -55,7 +55,7 @@
       </geometry>
     </collision>
   </link>
-  <joint name="Left_Wheel_Joint" type="continuous">
+  <joint name="Left_Wheel_Joint" type="fixed">
     <origin xyz="0.000225030065905006 0.2031 -0.0265" rpy="0 0 0"/>
     <parent link="AGV_link"/>
     <child link="Left_Wheel_Link"/>
@@ -84,14 +84,14 @@
       </geometry>
     </collision>
   </link>
-  <joint name="Right_Wheel_Joint" type="continuous">
+  <joint name="Right_Wheel_Joint" type="fixed">
     <origin xyz="0.000225030065905024 -0.2031 -0.0265" rpy="0 0 0"/>
     <parent link="AGV_link"/>
     <child link="RIght_Wheel_Link"/>
     <axis xyz="0 1 0"/>
     <limit lower="-3.1416" upper="3.1416" effort="8" velocity="100"/>
   </joint>
-  <joint name="Caster_FL_Joint" type="continuous">
+  <joint name="Caster_FL_Joint" type="fixed">
     <origin xyz="0.167225030065905 0.171 -0.0148569592560352" rpy="0 0 0"/>
     <parent link="AGV_link"/>
     <child link="Caster_FL_Link"/>
@@ -119,7 +119,7 @@
       </geometry>
     </collision>
   </link>
-  <joint name="Caster_FL_Wheel_Joint" type="continuous">
+  <joint name="Caster_FL_Wheel_Joint" type="fixed">
     <origin xyz="-0.025518 5.9202E-05 -0.065143" rpy="0 0 0"/>
     <parent link="Caster_FL_Link"/>
     <child link="Caster_FL_Wheel_Link"/>
@@ -147,7 +147,7 @@
       </geometry>
     </collision>
   </link>
-  <joint name="Caster_FR_Joint" type="continuous">
+  <joint name="Caster_FR_Joint" type="fixed">
     <origin xyz="0.16643 -0.17177 -0.014857" rpy="0 0 0"/>
     <parent link="AGV_link"/>
     <child link="Caster_FR_Link"/>
@@ -175,7 +175,7 @@
       </geometry>
     </collision>
   </link>
-  <joint name="Caster_FR_Wheel_Joint" type="continuous">
+  <joint name="Caster_FR_Wheel_Joint" type="fixed">
     <origin xyz="-0.0255184881556991 5.92020066988441E-05 -0.0651430407439647" rpy="0 0 0"/>
     <parent link="Caster_FR_Link"/>
     <child link="Caster_FR_Wheel_Link"/>
@@ -203,7 +203,7 @@
       </geometry>
     </collision>
   </link>
-  <joint name="Caster_RL_Joint" type="continuous">
+  <joint name="Caster_RL_Joint" type="fixed">
     <origin xyz="-0.16598 0.17177 -0.019893" rpy="0 0 0"/>
     <parent link="AGV_link"/>
     <child link="Caster_RL_Link"/>
@@ -231,7 +231,7 @@
       </geometry>
     </collision>
   </link>
-  <joint name="Caster_RL_Wheel_Joint" type="continuous">
+  <joint name="Caster_RL_Wheel_Joint" type="fixed">
     <origin xyz="-0.025518 5.9202E-05 -0.065143" rpy="0 0 0"/>
     <parent link="Caster_RL_Link"/>
     <child link="Caster_RL_Wheel_Link"/>
@@ -259,7 +259,7 @@
       </geometry>
     </collision>
   </link>
-  <joint name="Caster_RR_Joint" type="continuous">
+  <joint name="Caster_RR_Joint" type="fixed">
     <origin xyz="-0.16677 -0.171 -0.019893" rpy="0 0 0"/>
     <parent link="AGV_link"/>
     <child link="Caster_RR_Link"/>
@@ -287,7 +287,7 @@
       </geometry>
     </collision>
   </link>
-  <joint name="Caster_RR_Wheel_Joint" type="continuous">
+  <joint name="Caster_RR_Wheel_Joint" type="fixed">
     <origin xyz="-0.025518 5.9202E-05 -0.065143" rpy="0 0 0"/>
     <parent link="Caster_RR_Link"/>
     <child link="Caster_RR_Wheel_Link"/>
