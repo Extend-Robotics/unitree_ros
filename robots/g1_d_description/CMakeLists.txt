@@ -8,5 +8,5 @@ catkin_package()
 install(DIRECTORY meshes
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
 
-install(FILES g1_d.urdf g1_d_with_dex1_1.urdf
+install(FILES g1_d_with_dex1_1.urdf
         DESTINATION ${CATKIN_PACKAGE_SHARE_DESTINATION})
